@@ -8,6 +8,7 @@ const char* password = "tuPassword";
 WebServer server(80);
 
 // GPIOs para los LEDs RGB
+// Asegurate de cambiar los valores de los GPIOS de todas las salidas (LED's, Segmentos y Digitos)
 const int ledR = 23;
 const int ledG = 22;
 const int ledB = 21;
